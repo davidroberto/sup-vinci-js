@@ -1,24 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.body {
-  position: relative;
-}
-
-.menu {
-  background-color: lightblue;
-  transition: opacity 1s ease-out;
-  opacity: 0;
+.avatar {
+  width: 50px;
   position: absolute;
-  width: 100%;
-  height: 100vh;
+  top: 0;
   left: 0;
-  top: 30px;
-  z-index: 9;
-}
-
-.menu-trigger {
-  width: 20px;
 }
