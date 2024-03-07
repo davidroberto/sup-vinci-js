@@ -13,11 +13,11 @@ document.addEventListener("keydown", (event) => {
 
   // je récupère la position gauche de mon avatar
   // si elle a pas été définie en CSS, je lui donne en valeur 0;
-  const left = avatarNode.style.left || 0;
+  const left = parseInt(avatarNode.style.left || 0);
 
   // je récupère la position top de mon avatar
   // si elle a pas été définie en CSS, je lui donne en valeur 0;
-  const top = avatarNode.style.top || 0;
+  const top = parseInt(avatarNode.style.top || 0);
 
   // si la touche pressée est la gauche
   if (event.key === "ArrowLeft") {
